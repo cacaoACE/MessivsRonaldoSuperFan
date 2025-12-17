@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Messi vs Ronaldo</title>
+  </head>
+  <body>
+    <div class="names">
+      <div class="rectangle center-content">
+        <img
+          src="images/messiNameOnly2.0.jpg"
+          class="clickable"
+          id="mname"
+          onclick="Messi()"
+        />
+      </div>
+      <div class="rectangle center-content">
+        <img
+          src="images/ronaldoNameOnly2.0.jpg"
+          class="clickable"
+          id="rname"
+          onclick="Ronaldo()"
+        />
+      </div>
+    </div>
+    <div class="info">
+      <div class="facts">
+        <div class="box center-content" id="fact1">
+          <img src="images/Ballon_d'Or.webp" id="trophy" />
+        </div>
+        <div class="box center-content" id="fact2">
+          <img src="images/Messi.jpg" id="messi" />
+        </div>
+      </div>
+      <div class="gif center-content">
+        <img
+          id="stadium"
+          src="images/stadiumEntrance.jpg"
+          onclick="resetAll();"
+        />
+        <iframe
+          width="560"
+          height="315"
+          id="mvid"
+          style="display: none"
+          src="https://www.youtube.com/embed/wGLHV7RUoO4?si=maPJLcNWqaFPgZdy"
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          id="rvid"
+          style="display: none"
+          src="https://www.youtube.com/embed/FicvGCYBbAQ?si=50fwgvbMCrM_Ck2O"
+        ></iframe>
+      </div>
+      <div class="facts">
+        <div class="box center-content" id="fact3">
+          <img src="images/fifaWorldCupBall.jpg" id="ball" />
+        </div>
+        <div class="box center-content" id="fact4">
+          <img src="images/Ronaldo.jpg" id="ronaldo" />
+        </div>
+      </div>
+    </div>
+    <audio
+      src="sounds/Muchachos-ahora-nos-volvimos-a-i.mp3"
+      type="audio/mp4"
+      id="msound"
+    ></audio>
+    <audio
+      src="sounds/Rihanna-Man-Down.mp3"
+      type="audio/mp4"
+      id="rsound"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
